@@ -1,0 +1,6 @@
+framework module Pods_ZRequestTool {
+  umbrella header "Pods-ZRequestTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

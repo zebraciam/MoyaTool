@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1502228E2577718E00DD022A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1502228D2577718E00DD022A /* AppDelegate.swift */; };
+		150222902577718E00DD022A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1502228F2577718E00DD022A /* SceneDelegate.swift */; };
+		150222922577718E00DD022A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150222912577718E00DD022A /* ViewController.swift */; };
+		150222952577718E00DD022A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150222932577718E00DD022A /* Main.storyboard */; };
+		150222972577719100DD022A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150222962577719100DD022A /* Assets.xcassets */; };
+		1502229A2577719100DD022A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150222982577719100DD022A /* LaunchScreen.storyboard */; };
+		15D19809257A075E00FE0281 /* Codable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D19808257A075E00FE0281 /* Codable+Extension.swift */; };
+		15E4CE9F258061B600F837DF /* ZBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E4CE98258061B600F837DF /* ZBaseModel.swift */; };
+		15E4CEA0258061B600F837DF /* ZResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E4CE99258061B600F837DF /* ZResultModel.swift */; };
+		15E4CEA1258061B600F837DF /* ZRequestTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E4CE9A258061B600F837DF /* ZRequestTool.swift */; };
+		15E4CEA2258061B600F837DF /* ZRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E4CE9B258061B600F837DF /* ZRequest.swift */; };
+		15E4CEA3258061B600F837DF /* ZResponseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E4CE9C258061B600F837DF /* ZResponseConfig.swift */; };
+		15E4CEA4258061B600F837DF /* ZNetworkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E4CE9D258061B600F837DF /* ZNetworkApi.swift */; };
+		15E73F0F2578DD6E004C9769 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E73F0E2578DD6E004C9769 /* API.swift */; };
+		15E73F122578DDB9004C9769 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E73F112578DDB9004C9769 /* Request.swift */; };
+		15E73F182578DFBF004C9769 /* ResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E73F172578DFBF004C9769 /* ResultModel.swift */; };
+		15E73F1D2578E4E4004C9769 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E73F1C2578E4E4004C9769 /* BaseModel.swift */; };
+		15E73F232578EB78004C9769 /* RequestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E73F222578EB78004C9769 /* RequestConfig.swift */; };
+		EAEE572B8845F120BA342C58 /* Pods_ZRequestTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C84CD097887725CCAA0F7C5 /* Pods_ZRequestTool.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1502228A2577718E00DD022A /* ZRequestTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZRequestTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1502228D2577718E00DD022A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1502228F2577718E00DD022A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		150222912577718E00DD022A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		150222942577718E00DD022A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		150222962577719100DD022A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		150222992577719100DD022A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1502229B2577719100DD022A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15D19808257A075E00FE0281 /* Codable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Extension.swift"; sourceTree = "<group>"; };
+		15E4CE98258061B600F837DF /* ZBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBaseModel.swift; sourceTree = "<group>"; };
+		15E4CE99258061B600F837DF /* ZResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZResultModel.swift; sourceTree = "<group>"; };
+		15E4CE9A258061B600F837DF /* ZRequestTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZRequestTool.swift; sourceTree = "<group>"; };
+		15E4CE9B258061B600F837DF /* ZRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZRequest.swift; sourceTree = "<group>"; };
+		15E4CE9C258061B600F837DF /* ZResponseConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZResponseConfig.swift; sourceTree = "<group>"; };
+		15E4CE9D258061B600F837DF /* ZNetworkApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNetworkApi.swift; sourceTree = "<group>"; };
+		15E73F0E2578DD6E004C9769 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		15E73F112578DDB9004C9769 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		15E73F172578DFBF004C9769 /* ResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultModel.swift; sourceTree = "<group>"; };
+		15E73F1C2578E4E4004C9769 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		15E73F222578EB78004C9769 /* RequestConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestConfig.swift; sourceTree = "<group>"; };
+		7C84CD097887725CCAA0F7C5 /* Pods_ZRequestTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZRequestTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4F56A88566878E54A5FAE9 /* Pods-ZRequestTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRequestTool.release.xcconfig"; path = "Target Support Files/Pods-ZRequestTool/Pods-ZRequestTool.release.xcconfig"; sourceTree = "<group>"; };
+		FD78A0B596C1A638910DB52F /* Pods-ZRequestTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRequestTool.debug.xcconfig"; path = "Target Support Files/Pods-ZRequestTool/Pods-ZRequestTool.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		150222872577718E00DD022A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEE572B8845F120BA342C58 /* Pods_ZRequestTool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		150222812577718E00DD022A = {
+			isa = PBXGroup;
+			children = (
+				1502228C2577718E00DD022A /* ZRequestTool */,
+				1502228B2577718E00DD022A /* Products */,
+				AE71494EF48BB860BB8712C6 /* Pods */,
+				29AE84B69D842E4E5D05A448 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1502228B2577718E00DD022A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1502228A2577718E00DD022A /* ZRequestTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1502228C2577718E00DD022A /* ZRequestTool */ = {
+			isa = PBXGroup;
+			children = (
+				1502228D2577718E00DD022A /* AppDelegate.swift */,
+				1502228F2577718E00DD022A /* SceneDelegate.swift */,
+				150222912577718E00DD022A /* ViewController.swift */,
+				15E4CE97258061B600F837DF /* ZRequestTool-HandyJSON */,
+				15E73F0D2578DD43004C9769 /* RequestTool-Codable */,
+				150222932577718E00DD022A /* Main.storyboard */,
+				150222962577719100DD022A /* Assets.xcassets */,
+				150222982577719100DD022A /* LaunchScreen.storyboard */,
+				1502229B2577719100DD022A /* Info.plist */,
+			);
+			path = ZRequestTool;
+			sourceTree = "<group>";
+		};
+		15E4CE97258061B600F837DF /* ZRequestTool-HandyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				15E4CE98258061B600F837DF /* ZBaseModel.swift */,
+				15E4CE99258061B600F837DF /* ZResultModel.swift */,
+				15E4CE9A258061B600F837DF /* ZRequestTool.swift */,
+				15E4CE9B258061B600F837DF /* ZRequest.swift */,
+				15E4CE9C258061B600F837DF /* ZResponseConfig.swift */,
+				15E4CE9D258061B600F837DF /* ZNetworkApi.swift */,
+			);
+			path = "ZRequestTool-HandyJSON";
+			sourceTree = "<group>";
+		};
+		15E73F0D2578DD43004C9769 /* RequestTool-Codable */ = {
+			isa = PBXGroup;
+			children = (
+				15E73F1C2578E4E4004C9769 /* BaseModel.swift */,
+				15E73F0E2578DD6E004C9769 /* API.swift */,
+				15E73F222578EB78004C9769 /* RequestConfig.swift */,
+				15E73F112578DDB9004C9769 /* Request.swift */,
+				15E73F172578DFBF004C9769 /* ResultModel.swift */,
+				15D19808257A075E00FE0281 /* Codable+Extension.swift */,
+			);
+			path = "RequestTool-Codable";
+			sourceTree = "<group>";
+		};
+		29AE84B69D842E4E5D05A448 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C84CD097887725CCAA0F7C5 /* Pods_ZRequestTool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE71494EF48BB860BB8712C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD78A0B596C1A638910DB52F /* Pods-ZRequestTool.debug.xcconfig */,
+				7D4F56A88566878E54A5FAE9 /* Pods-ZRequestTool.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		150222892577718E00DD022A /* ZRequestTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1502229E2577719100DD022A /* Build configuration list for PBXNativeTarget "ZRequestTool" */;
+			buildPhases = (
+				C4082720DDB2FF2AFB27331C /* [CP] Check Pods Manifest.lock */,
+				150222862577718E00DD022A /* Sources */,
+				150222872577718E00DD022A /* Frameworks */,
+				150222882577718E00DD022A /* Resources */,
+				824E7C3D4CBEE8DF038409E0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZRequestTool;
+			productName = ZRequestTool;
+			productReference = 1502228A2577718E00DD022A /* ZRequestTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		150222822577718E00DD022A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Z;
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					150222892577718E00DD022A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 150222852577718E00DD022A /* Build configuration list for PBXProject "ZRequestTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 150222812577718E00DD022A;
+			productRefGroup = 1502228B2577718E00DD022A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				150222892577718E00DD022A /* ZRequestTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		150222882577718E00DD022A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1502229A2577719100DD022A /* LaunchScreen.storyboard in Resources */,
+				150222972577719100DD022A /* Assets.xcassets in Resources */,
+				150222952577718E00DD022A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		824E7C3D4CBEE8DF038409E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZRequestTool/Pods-ZRequestTool-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZRequestTool/Pods-ZRequestTool-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZRequestTool/Pods-ZRequestTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4082720DDB2FF2AFB27331C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZRequestTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		150222862577718E00DD022A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150222922577718E00DD022A /* ViewController.swift in Sources */,
+				15E73F1D2578E4E4004C9769 /* BaseModel.swift in Sources */,
+				15E73F232578EB78004C9769 /* RequestConfig.swift in Sources */,
+				15E4CE9F258061B600F837DF /* ZBaseModel.swift in Sources */,
+				1502228E2577718E00DD022A /* AppDelegate.swift in Sources */,
+				15E4CEA4258061B600F837DF /* ZNetworkApi.swift in Sources */,
+				15E73F122578DDB9004C9769 /* Request.swift in Sources */,
+				15E4CEA1258061B600F837DF /* ZRequestTool.swift in Sources */,
+				15E73F0F2578DD6E004C9769 /* API.swift in Sources */,
+				15E4CEA2258061B600F837DF /* ZRequest.swift in Sources */,
+				15E4CEA3258061B600F837DF /* ZResponseConfig.swift in Sources */,
+				15E73F182578DFBF004C9769 /* ResultModel.swift in Sources */,
+				15D19809257A075E00FE0281 /* Codable+Extension.swift in Sources */,
+				15E4CEA0258061B600F837DF /* ZResultModel.swift in Sources */,
+				150222902577718E00DD022A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		150222932577718E00DD022A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150222942577718E00DD022A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		150222982577719100DD022A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150222992577719100DD022A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1502229C2577719100DD022A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1502229D2577719100DD022A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1502229F2577719100DD022A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD78A0B596C1A638910DB52F /* Pods-ZRequestTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZRequestTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zebra.ZRequestTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		150222A02577719100DD022A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D4F56A88566878E54A5FAE9 /* Pods-ZRequestTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZRequestTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zebra.ZRequestTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		150222852577718E00DD022A /* Build configuration list for PBXProject "ZRequestTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1502229C2577719100DD022A /* Debug */,
+				1502229D2577719100DD022A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1502229E2577719100DD022A /* Build configuration list for PBXNativeTarget "ZRequestTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1502229F2577719100DD022A /* Debug */,
+				150222A02577719100DD022A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 150222822577718E00DD022A /* Project object */;
+}
