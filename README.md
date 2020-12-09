@@ -1,5 +1,5 @@
 # MoyaTool
-快速模板工具
+快速解析模型工具
 Moya+RxSwift封装，请求直接返回Model/Array，支持HandyJSON/Codable，个人理解，仅供参考。
 
 ## Issues
